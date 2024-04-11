@@ -19,3 +19,5 @@ There are a couple of reasons why I started this:
 Yes, with a few important exceptions. We welcome creative and innovative contributions, but please steer clear of anything illegal, pornographic, or related to gambling. It's all about maintaining a positive vibe and building something cool together.
 
 Now, let's spread some chaos! :)
+
+Let's go!
