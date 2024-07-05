@@ -80,3 +80,75 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#color-palette {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.color-option.selected {
+    border-color: #000;
+}
+
+#artwork-name, #artwork-description {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+#artwork-description {
+    height: 60px;
+    resize: none;
+}
+
+.gallery-item {
+    position: relative;
+    margin: 10px;
+}
+
+.gallery-item-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.share-buttons {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    gap: 5px;
+}
+
+.share-button {
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-button:hover {
+    background: rgba(255, 255, 255, 0.9);
+}

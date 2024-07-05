@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChaosPiXELS - Interactive Pixel Art Gallery</title>
+    <title>ChaosPiXELS - Create and Share Pixel Art</title>
+    <meta name="description" content="Create, share, and explore amazing pixel art with ChaosPiXELS - the interactive pixel art gallery for digital artists and enthusiasts.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -31,7 +32,10 @@
 
         <section id="create">
             <h2>Create Your Pixel Art</h2>
+            <div id="color-palette"></div>
             <div id="pixel-canvas"></div>
+            <input type="text" id="artwork-name" placeholder="Name your artwork">
+            <textarea id="artwork-description" placeholder="Describe your artwork (max 100 characters)"></textarea>
             <button id="save-artwork">Save Artwork</button>
         </section>
 
@@ -45,6 +49,7 @@
         <p>&copy; 2024 ChaosPiXELS. All rights reserved.</p>
     </footer>
 
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
